@@ -1,0 +1,41 @@
+
+
+/*
+* donut-large-chart
+*/
+
+donut-large-chart {
+    margin: 14px auto;
+    width: 33%;
+    display: block;
+    float: left;
+}
+
+donut-large-chart path.outer {
+    fill: #f1f3f0;
+    stroke: #f1f3f0;
+    stroke-width: 1px;
+}
+
+donut-large-chart path {
+    stroke-width: 6px;
+
+}
+
+donut-large-chart .red{
+    stroke: #ff4d4d;
+}
+donut-large-chart .orange{
+    stroke: #fbc300;
+}
+donut-large-chart .green{
+    stroke: #66b366;
+}
+
+
+donut-large-chart text {
+    font-family: Avenir;
+    font-size: 35px;
+    fill: #4e4e4e;
+    font-weight: 500;
+}

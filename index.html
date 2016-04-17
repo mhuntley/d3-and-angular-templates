@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="d3.style.css" rel="stylesheet">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/d3/d3.min.js"></script>
+
+    <script src="d3.module.js"></script>
+    <script src="d3.controller.js"></script>
+    <script src="d3.service.js"></script>
+    <script src="d3.donut-large.directive.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="donut-chart" ng-controller="D3Controller as vm">
+        <div class="donuts">
+            <donut-large-chart graphid="donutSimple1" data="vm.donutSimple1"></donut-large-chart>
+            <donut-large-chart graphid="donutSimple2" data="vm.donutSimple2"></donut-large-chart>
+            <donut-large-chart graphid="donutSimple3" data="vm.donutSimple3"></donut-large-chart>
+        </div>
+    </div>
+</body>
+
+</html>
